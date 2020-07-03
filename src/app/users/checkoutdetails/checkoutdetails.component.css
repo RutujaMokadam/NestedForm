@@ -1,0 +1,15 @@
+ul li{
+    list-style-type: none;
+    border-bottom: 1px solid black;
+}
+.totalamount{
+    margin-left: 9%;
+    font-size: large;
+}
+span{
+    color:red;
+    font-weight: 700;
+}
+.maincontainer{
+    margin-top: 10% ;
+}

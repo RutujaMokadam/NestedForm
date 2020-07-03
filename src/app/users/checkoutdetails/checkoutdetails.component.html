@@ -1,0 +1,19 @@
+<div class="row">
+    <div class="container">
+        <div class="col-lg-6 maincontainer">
+             <ul *ngFor="let product of productselected">
+                <li>
+                    <p>{{product.productname}} X {{product.quantity}}</p>
+                    <p>Rs. {{product.productprice}}</p>
+                    
+                </li>
+            </ul> 
+            <div>
+                <p class="totalamount">Total amount to be pay <span>{{finalcost}}</span></p><br>
+                <input  type="checkbox" (change)="paymentcheck($event)"/> <label>&nbsp; chash on delivery</label>
+                <br>
+                <button type="button" [disabled]="checkpay" class="btn btn-warning btn-lg" [routerLink]="['/app-successfullcheckout']">CHECK OUT</button>
+            </div>
+        </div>
+    </div>
+</div>

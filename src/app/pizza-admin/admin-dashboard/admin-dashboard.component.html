@@ -1,0 +1,14 @@
+<div class="container">
+    <div class="row">
+        <div class="col-lg-6">
+            <div  class="maincontainer">
+                <ul *ngFor="let product of productrecived">
+                    <li>
+                        <p>{{product.productname}}</p>
+                        <p>Rs. {{product.productprice}}</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

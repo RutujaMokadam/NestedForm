@@ -1,0 +1,16 @@
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10%;
+  }
+  .loginform{
+   border: 1px solid black;
+   padding: 3%;
+  }
+  .loginLog{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+  }
